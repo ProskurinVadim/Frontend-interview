@@ -1,0 +1,112 @@
+.modal {
+    position: fixed;
+    display: block !important;
+    z-index: 11;
+    left: unset !important;
+    top: unset !important;
+    right: unset !important;
+    bottom: unset !important;
+    border-radius: 4px;
+    background-color: #fff;
+
+    &-background {
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 12;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+}
+.error-modal {
+    width: 300px;
+    padding: 20px 0 15px;
+    text-align: center;
+
+    .error-icon {
+        display: block;
+        text-align: center;
+        font-size: 36px;
+        margin: 20px;
+        color: #F64E60;
+    }
+
+    .text-basic {
+        margin: 10px 0 20px;
+        padding: 0 25px;
+        font-size: 20px
+    }
+
+    .button-common-dangerous {
+        width: 100%;
+        color: #fff;
+        background-color: #F64E60;
+    }
+}
+
+.add-modal {
+    width: 1000px;
+    height: 600px;
+
+    .modal-label {
+        padding: 20px 40px;
+        border-bottom: 1px solid #000;
+        margin-bottom: 40px
+    }
+
+    &-image {
+        width: 350px;
+        height: 350px;
+        border: 1px dashed;
+        position: relative;
+
+        input {
+            visibility: hidden;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        img {
+            height: 350px;
+        }
+        label {
+            font-size: 48px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .modal-buttons {
+        margin: 50px auto 0;
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.select-modal {
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+
+    &-input {
+        margin: 20px 0 60px;
+    }
+
+    .modal-buttons {
+        text-align: center;
+    }
+}

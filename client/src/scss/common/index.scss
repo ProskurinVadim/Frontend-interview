@@ -1,0 +1,77 @@
+.text-label {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.text__upercase {
+    text-transform: uppercase;
+}
+
+.text-basic {
+    font-size: 16px;
+    color: #343a40;
+}
+
+.text-basic-big {
+    font-size: 18px;
+    font-weight: 700;
+    color: #343a40;
+}
+
+.text-label-small {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text__main {
+    color: #fff;
+}
+
+.text-link {
+    color: #1976d2;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.modal-label {
+    font-size: 26px;
+    padding-bottom: 5px;
+}
+
+.text-heder {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 900
+}
+
+.text-description {
+    font-size: 28px;
+    color: #fff;
+}
+
+.text-heder__small {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.text__selected {
+    color: #FF8C00;
+}
+
+.error-text {
+    color: #F64E60;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.section-color {
+    background: rgb(25,118,210);
+    background: linear-gradient(70deg, rgba(25,118,210,1) 0%, rgba(0,155,255,1) 21%, rgba(255,140,0,1) 100%);
+}
+
+.cell_selected {
+    background-color: #FF8C00;
+    color: #fff;
+}

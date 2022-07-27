@@ -1,0 +1,16 @@
+.presenters-page {
+    .text-heder{
+        padding-top: 50px
+    } 
+    .text-label {
+        margin-top: 50px;
+    }
+    .list {
+        margin-top: 30px;
+        justify-content: flex-start;
+
+        &-item {
+            margin-right: 60px
+        }
+    }
+}
